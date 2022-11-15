@@ -68,11 +68,13 @@ h1, h2, h3, h4, h5, h6, p, a, i {
 }
 
 h1 {
-    font-size: 7.5rem;
+    font-size: 6.5rem;
 }
 
 h2 {
     font-size: 6rem;
+    color: white;
+    padding: 1vw;
 }
 
 h3 {
@@ -93,6 +95,36 @@ header {
     background-repeat: no-repeat;
 }
 
+.transparan {
+    background-color: rgb(0, 4, 17, .8);
+}
+header h1 {
+    color: white;
+    text-align: center;
+}
+
+header nav .menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav div a {
+    color: white;
+    font-size: 2rem;
+}
+
+.social {
+    text-align: center;
+    
+}
+
+.social i {
+    color: white;
+    font-size: 3.5rem;
+    margin: 10px 25px;
+    margin-bottom: 15px;
+}
+
 /* spacers */
 .spacer {
     width: 100%;
@@ -111,6 +143,22 @@ header {
     height: 100vh;
     text-align: center;
     background-color: rgb(0, 4, 17);
+}
+
+.gallery div {
+}
+
+.gallery .resimler {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90vw;
+    margin: 10px auto;
+}
+
+.gallery img {
+    width: 25vw;
+    margin: 1vw;
 }
 
 /* about us section */
