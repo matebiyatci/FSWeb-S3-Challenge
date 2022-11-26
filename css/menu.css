@@ -96,6 +96,39 @@ header {
     background-repeat: no-repeat;
 }
 
+.transparan {
+    background-color: rgb(0, 4, 17, .8);
+}
+
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-size: 5.5rem;
+}
+
+header nav .menu1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav div a {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.social {
+    text-align: center;
+
+}
+
+.social i {
+    color: white;
+    font-size: 3.5rem;
+    margin: 10px 25px;
+    margin-bottom: 15px;
+}
+
 /* spacer */
 .spacer {
     width: 100%;
@@ -113,19 +146,123 @@ header {
 .menu {
     width: 100%;
     height: auto;
-    background-image: url('../img/staff-bartender.jpg');
+    background-image: url('/img/staff-bartender.jpg');
     background-color: rgb(0, 4, 17);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    font-size: 2rem;
 }
+
+.menu h2 {
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+}
+
+.tummenu {
+    display: flex;
+    color: white;
+    flex-flow: row wrap;
+    margin: auto auto;
+    justify-content: space-around;
+}
+
+.kucukbox {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 1vw;
+    width: 30vw;
+}
+
+.altbaslik {
+    font-size: 4rem;
+    margin-left: 1vw;
+}
+
+.basligim {
+    font-size: 3rem;
+
+}
+
+.altbasligim {
+    font-size: 2.5rem;
+} 
+
+.altbasligim2 {
+    font-size: 2rem;
+    margin-top: 1vw;
+} 
+
+.yazilar {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.fiyatim {
+    font-size: 3rem;
+    margin-left: auto;
+}
+
+.menualtbaslik {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 3vw;
+}
+
+
 
 /* footer section */
 footer {
     width: 100%;
-    height: 15vh;
+    height: auto;
     padding-top: 2.5vh;
     font-size: 3rem;
+    background-color: rgb(0, 4, 17);
+    border-top: 0.1rem solid gray;
+}
+
+footer .haklar {
+    text-align: end;
+    color: white;
+    font-size: 1.7rem;
+    padding-right: 10rem;
+    padding-bottom: 0.5rem;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+    padding-top: 2rem;
+    color: white;
+}
+
+footer nav p {
+    font-size: 3rem;
+    color: white;
+}
+
+footer nav a {
+    font-size: 2.5rem;
+    color: white;
+}
+
+footer input {
+    width: 25%;
+    padding: 5px;
+    font-size: 2rem;
+    color: gray;
+    margin-left: 1%;
+    margin-right: 0px;
+}
+
+footer button {
+    width: 8%;
+    margin-left: 0px;
+    color: black;
+    font-size: 2rem;
+    padding: 5px;
 }
 
 /* mobile media query */
